@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+  #titulo{
+    font-family: 'Honk', system-ui;
+    font-size: 48px;    
+}
+
+#menu{
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 90px;
+}
+  .textoindumentaria {
+    color: rgb(139, 0, 0);
+    font-weight: 700;
+}
+
+.descripciontalles {
+    font-weight: 300;
+    font-style: italic;
+}
+
+#carrito {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: -5%;
+    width: 65%;
+    height: auto;
+    background-color: beige
+}
+
+.row {
+    border: solid 2px red;
+}
+
+.col {
+    border: solid 2px red;
+}
+
+.card-text {
+    color: rgb(202, 16, 16);
+    font-weight: 400;
+}
+
+#boton {
+    color: white;
+    background-color: rgba(4, 87, 165, 0.829);
+    position: absolute;
+    right: 45%;
+    bottom: 2%;
+    border-radius: 20px 45px
+}
+
+#btnCarrito2 {
+    position: absolute;
+    right: 35%;
+    bottom: -1%;
+}
+
+.divisortabla{
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: brown;
+}
+tr{
+    text-align: center;
+}
